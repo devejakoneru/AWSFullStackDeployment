@@ -16,7 +16,7 @@ function App() {
   const handleChange = (e) => {
     setProduct({ ...product, [e.target.name]: e.target.value });
   };
-const BASE_URL = 'http://localhost:9034';
+const BASE_URL = 'http://52.22.195.62:9034';
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
